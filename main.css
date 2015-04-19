@@ -11,3 +11,11 @@ html {
     padding: 1em;
     margin: 1em;
 }
+
+ul {
+	list-style-type: none;	
+}
+
+img {
+	width: 300px;
+}
