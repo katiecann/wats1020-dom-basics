@@ -7,9 +7,21 @@ html {
 }
 
 .fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
-    padding: 1em;
-    margin: 1em;
+	position: relative;
+	width: 70%;
+	padding: 1em 1.5em;
+	margin: 2em auto;
+	background: #FFFFDB;
+}
+
+.fortune-cookie-saying-wrapper:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-width: 0 25px 25px 0;
+	border-style: solid;
+	border-color: #FFFF99 #fff;
 }
 
 ul {
